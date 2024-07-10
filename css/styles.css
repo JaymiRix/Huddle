@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(/fonts/static/Inter-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(/fonts/static/Inter-Bold.ttf) format(truetype);
+    font-weight: bold;
+    font-style: Bold;
+    font-display: optional;
+
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url(/fonts/static/Inter-SemiBold.ttf) format(truetype);
+}
+
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter-Regular', sans-serif;
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    padding: 2em;
+    margin: 100px auto;
+    border-radius: 20px;
+    height: 450px;
+    width: 280px;
+      
+}
+
+.avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px 35% 10px 35%;
+}
+.name{
+    font-family: 'Inter-SemiBold', sans-serif;
+    font-size: 24px;
+    margin: 10px auto;
+    text-align: center;
+}
+.location{
+    font-family: 'Inter-SemiBold', sans-serif;
+    font-size: 14px;
+    color:  hsl(75, 94%, 57%);
+    margin: 10px auto;
+    text-align: center;
+}
+
+.tagline{
+    font-family: 'Inter-SemiBold';
+    font-size: 12px;
+    text-align: center;   
+    color: grey;
+    margin: 20px auto;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin: 20px auto 0 auto;
+}
+
+.button-item{
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    font-family: 'Inter-SemiBold';
+    font-size: 12px;
+    width: 300px;
+    height: 35px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: none;
+}
+
+.button-item:hover{
+    background-color: hsl(75, 94%, 57%);
+    transition: 0.5s;
+}
+
+.button-item:focus{
+    background-color: grey;
+    color: hsl(0, 0%, 12%);
+}
